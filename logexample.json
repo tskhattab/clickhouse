@@ -1,36 +1,32 @@
 {
-    "logs": [
-        {
-            "timestamp": "2024-04-18T14:57:35.176-04:00",
-            "level": "INFO",
-            "thread": "http-nio-8080-exec-2",
-            "mdc": {
-                "traceId": "663161103033937169@abbe080",
-                "spanId": "3716c9a9abbc08c4",
-                "logCount": "82",
-                "UID": "XXX00821",
-                "FrameWork": "micron"
-            },
-            "logger": "com.pnc.cce.retail.cardinfo.client.ceRetailBaseClient",
-            "message": "responseEntity status code200 OK",
-            "context": "default"
-        },
-        {
-            "timestamp":"2024-04-18T14:57:35.186-04:00",
-            "level":"INFO",
-            "thread":"http-nio-8080-exec-2",
-            "mdc":{
-                "traceId":"663161103033937169@abbe080",
-                "spanId":"3716c9a9abbc08c4",
-                "logCount":"82",
-                "UID":"XXX00821",
-                "FrameWork":"micron"
-            },
-            "logger":"com.pnc.micron.dev.core.logging.LoggingAspect",
-            "message":"Non Emulation Business Event Response Log {isEmulationSession=false, mdmPartyIdentifier=100032235262, edgeCaseNumber=null, requestHeaders=[conversationid:\"c776e78c-5467-4c94-b139-ef3fa0ed9de1\"cookie:\"__Secure.rtl.sso.session.test_qa=ZGFkLmNjZS5zZXNzaW9uLnFhXzE4MTRjYmFiLTdmOGEtNGFiMC1hYzJmLWQ0ZmM2NjBmOTMzZQ\", authorization:\"***************************************************************************\",user-agent:\"PostmanRuntime/7.28.4\", accept:\"*/*\", postman-token:\"f2a8e10c-e088-48f1-948b-2204a70119f9\", host:\"localhost:8080\", accept-encoding:\"gzip, deflate, br\", connection:\"keep-alive\"], responseHeaders=[x-b3-traceid:\"66216d1d3833ae9f3716c9a9abbc08c4\", Connection:\"Keep-Alive\", Keep-Alive:\"timeout=20\", Vary:\"Origin\", \"Access-Control-Request-Method\",\"Access-Control-Request-Headers\",\"Origin\",\"Access-Control-Request-Method\", \"Access-Control-Request-Headers\", \"Origin\", \"Access-Control-Request-Method\",\"Access-Control-Request-Headers\"], careCenterUserId=null, logIdentifier=Business Event, requestPayload=null,endpointName=/credit-card/v1/balance-summary, responsePayload=ResponseDto(status=SUCCESS, data=BalanceSummaryDomainData(busIndeicator=Consumer, currentBalance=16782.07, cashAdvanceBalance=0.0,minimumPaymentDue=2639.0, minimumPaymentDueDate=2024-04024, lastPaymentDue=0.0, lastPaymentDueDate=null, lastStatementBalance=16782.07, lastStatementDate=2024-03-29, nextStatementDate=2024-04-28,availableCredit=-6782.0, creditLimit=10000.0, delinquentAmount=1127.0, commercialCardCode=NA, mdmPartyIdentifier=1234567890, mdmContractIdentifier=859169212279028206), errors=null, dataType=null),chatConversationId=null,sessionId=null, httpMethod=GET, responseStatus=200, emulationId=null, ivrConversationId=null, application_specific_data=null, api_version_number=null, inners_executed=null,business_event_session_id=nul}",
-            "context":"default"
-        } 
-    ]
+    "timestamp": "2024-04-18T14:57:35.176-04:00",
+    "level": "INFO",
+    "thread": "http-nio-8080-exec-2",
+    "mdc": {
+        "traceId": "663161103033937169@abbe080",
+        "spanId": "3716c9a9abbc08c4",
+        "logCount": "82",
+        "UID": "XXX00821",
+        "FrameWork": "micron"
+    },
+    "logger": "com.pnc.cce.retail.cardinfo.client.ceRetailBaseClient",
+    "message": "responseEntity status code200 OK",
+    "context": "default"
+},
+{
+    "timestamp":"2024-04-18T14:57:35.186-04:00",
+    "level":"INFO",
+    "thread":"http-nio-8080-exec-2",
+    "mdc":{
+        "traceId":"663161103033937169@abbe080",
+        "spanId":"3716c9a9abbc08c4",
+        "logCount":"82",
+        "UID":"XXX00821",
+        "FrameWork":"micron"
+    },
+    "logger":"com.pnc.micron.dev.core.logging.LoggingAspect",
+    "message":"Non Emulation Business Event Response Log {isEmulationSession=false, mdmPartyIdentifier=100032235262, edgeCaseNumber=null, requestHeaders=[conversationid:\"c776e78c-5467-4c94-b139-ef3fa0ed9de1\"cookie:\"__Secure.rtl.sso.session.test_qa=ZGFkLmNjZS5zZXNzaW9uLnFhXzE4MTRjYmFiLTdmOGEtNGFiMC1hYzJmLWQ0ZmM2NjBmOTMzZQ\", authorization:\"***************************************************************************\",user-agent:\"PostmanRuntime/7.28.4\", accept:\"*/*\", postman-token:\"f2a8e10c-e088-48f1-948b-2204a70119f9\", host:\"localhost:8080\", accept-encoding:\"gzip, deflate, br\", connection:\"keep-alive\"], responseHeaders=[x-b3-traceid:\"66216d1d3833ae9f3716c9a9abbc08c4\", Connection:\"Keep-Alive\", Keep-Alive:\"timeout=20\", Vary:\"Origin\", \"Access-Control-Request-Method\",\"Access-Control-Request-Headers\",\"Origin\",\"Access-Control-Request-Method\", \"Access-Control-Request-Headers\", \"Origin\", \"Access-Control-Request-Method\",\"Access-Control-Request-Headers\"], careCenterUserId=null, logIdentifier=Business Event, requestPayload=null,endpointName=/credit-card/v1/balance-summary, responsePayload=ResponseDto(status=SUCCESS, data=BalanceSummaryDomainData(busIndeicator=Consumer, currentBalance=16782.07, cashAdvanceBalance=0.0,minimumPaymentDue=2639.0, minimumPaymentDueDate=2024-04024, lastPaymentDue=0.0, lastPaymentDueDate=null, lastStatementBalance=16782.07, lastStatementDate=2024-03-29, nextStatementDate=2024-04-28,availableCredit=-6782.0, creditLimit=10000.0, delinquentAmount=1127.0, commercialCardCode=NA, mdmPartyIdentifier=1234567890, mdmContractIdentifier=859169212279028206), errors=null, dataType=null),chatConversationId=null,sessionId=null, httpMethod=GET, responseStatus=200, emulationId=null, ivrConversationId=null, application_specific_data=null, api_version_number=null, inners_executed=null,business_event_session_id=nul}",
+    "context":"default"
 }
 
 
